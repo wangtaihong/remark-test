@@ -83,7 +83,11 @@ var_dump($arr);
 //替换a标签：
 $str=replace_to_Atarget($arr,$text_string);
 var_dump($str);
+/*
+结果：
+string(576) "<a href='Chinese' >Chinese</a>是中国人的意思，<a href='Chinese companies' >Chinese companies</a>是什么意思? <a href='Chinese' >Chinese</a> 与 <a href='Chinese companies' >Chinese companies</a> 是什么关系？<a href='Chinese companies' >Chinese companies</a>不能代替<a href='Chinese' >Chinese</a>. <a href='United States' >United States</a>是美国，<a href='United States of America' >United States of America</a>也是美国，但<a href='United States' >United States</a>也不能代替<a href='United States of America' >United States of America</a>"
 
+*/
 /*
 正则匹配效率会更高，会省去很多麻烦，目前我正在学习正则匹配
  */
